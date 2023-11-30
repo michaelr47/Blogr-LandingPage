@@ -50,3 +50,9 @@ Background gradient - body:
 
 /* font-family: 'Overpass', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
