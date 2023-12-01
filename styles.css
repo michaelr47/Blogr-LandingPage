@@ -71,9 +71,13 @@ font-family: 'Ubuntu', sans-serif; */
     --veryLightRed: hsl(355, 100%, 74%); 
     /* headings */
     --veryDarkBlue:  hsl(208, 49%, 24%);
-     
+
     --whiteText: hsl(0, 0%, 100%); 
     --grayishFooterText: hsl(240, 2%, 79%);
     --veryDarkGrayishBG: hsl(207, 13%, 34%);
     --darkBlackFooter: hsl(240, 10%, 16%);
+}
+
+header {
+    background: linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
 }
