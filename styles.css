@@ -56,3 +56,24 @@ font-family: 'Ubuntu', sans-serif; */
     padding: 0px;
     box-sizing: border-box;
 }
+
+:root {
+    /* intro - nav */
+    --gradientOrangeRed: hsl(13, 100%, 72%);
+    --gradientLightRed: hsl(353, 100%, 62%);
+
+    /* gradient body  */
+    --veryDarkGrayBlue:  hsl(237, 17%, 21%);
+    --veryDarkDesatBlue: hsl(237, 23%, 32%);
+    /* CTA Text */
+    --lightRed:  hsl(356, 100%, 66%); 
+    /* CTA hover bg */
+    --veryLightRed: hsl(355, 100%, 74%); 
+    /* headings */
+    --veryDarkBlue:  hsl(208, 49%, 24%);
+     
+    --whiteText: hsl(0, 0%, 100%); 
+    --grayishFooterText: hsl(240, 2%, 79%);
+    --veryDarkGrayishBG: hsl(207, 13%, 34%);
+    --darkBlackFooter: hsl(240, 10%, 16%);
+}
