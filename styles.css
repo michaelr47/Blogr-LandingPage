@@ -55,6 +55,7 @@ font-family: 'Ubuntu', sans-serif; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;;
 }
 
 :root {
@@ -80,4 +81,8 @@ font-family: 'Ubuntu', sans-serif; */
 
 header {
     background: linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
+}
+
+.sub-nav-items {
+    display: none;
 }
