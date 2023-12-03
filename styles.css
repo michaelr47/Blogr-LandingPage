@@ -81,6 +81,8 @@ font-family: 'Ubuntu', sans-serif; */
 
 header {
     background: linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
+    min-height: 80vh;
+    border-bottom-left-radius: 100px;
 }
 
 .sub-nav-items {
