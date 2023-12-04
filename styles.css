@@ -83,7 +83,7 @@ header {
     background: linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
     min-height: 80vh;
     border-bottom-left-radius: 100px;
-    padding: 3rem 3rem;
+    padding: 3rem 2rem;
 }
 
 nav {
@@ -99,8 +99,23 @@ ul {
     align-items: center;
     list-style-type: none;
     width: 50%;
+
+}
+
+.headingDiv {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 90%;
+    text-align: center;
+    /* margin: 0 auto; */
 }
 
 .sub-nav-items {
+    display: none;
+}
+
+.hidden {
     display: none;
 }
