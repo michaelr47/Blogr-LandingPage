@@ -83,7 +83,7 @@ header {
     background: linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
     min-height: 80vh;
     border-bottom-left-radius: 100px;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
 }
 
 nav {
@@ -104,14 +104,30 @@ ul {
 
 .headingDiv {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, 50%);
     width: 90%;
     text-align: center;
     /* margin: 0 auto; */
+    color: var(--whiteText);
 }
 
+.buttonsDiv {
+    margin: 2.2rem 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.startForFreeBtn, .learnMoreBtn {
+    width: 125px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
 .sub-nav-items {
     display: none;
 }
