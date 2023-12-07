@@ -80,7 +80,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 header {
-    background: linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
+    background: url('./images/bg-pattern-intro-mobile.svg') no-repeat -350px -180px, linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
     min-height: 80vh;
     border-bottom-left-radius: 100px;
     padding: 3rem 1rem;
