@@ -137,11 +137,15 @@ ul {
 }
 
 #features-section {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
 #features-section h2 {
     color: var(--veryDarkBlue);
     margin: 1rem 0px;
+}
+
+.features {
+    padding: 2rem;
 }
