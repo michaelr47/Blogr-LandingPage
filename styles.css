@@ -161,10 +161,18 @@ ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 75%;
+        width: 70%;
+    }
+    body {
+        overflow-x: hidden;
     }
     .imageContainer {
         order: 1;
+        position: absolute;
+        right: -200px;
+    }
+    #editorMobileImg {
+        width: 700px;
     }
 
 }
