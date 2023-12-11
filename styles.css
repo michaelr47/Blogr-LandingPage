@@ -161,7 +161,8 @@ ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 70%;
+        width: 35%;
+    
     }
     body {
         overflow-x: hidden;
@@ -169,10 +170,11 @@ ul {
     .imageContainer {
         order: 1;
         position: absolute;
-        right: -200px;
+        right: -255px;
+        top: -10px;
     }
     #editorMobileImg {
-        width: 700px;
+        width: 900px;
     }
 
 }
