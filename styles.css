@@ -154,17 +154,24 @@ ul {
 }
 
 @media only screen and (min-width: 992px) {
+
+    .mainHeading {
+        font-size: 2.5rem;
+    }
+    
     .features-content {
         display: flex;
+        margin-top: 10rem;
+        margin-left: 5rem; 
         position: relative;
 
     }
     .features {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 35%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 45%;
     
     }
     body {
@@ -174,7 +181,7 @@ ul {
         order: 1;
         position: absolute;
         right: -255px;
-        top: -10px;
+        top: -170px;
     }
     #editorMobileImg {
         width: 900px;
