@@ -158,6 +158,19 @@ ul {
     color: var(--veryDarkGrayishBG);
 }
 
+/* #secondSection {
+    
+
+} */
+.darkBG {
+    /* background: url('./images/bg-pattern-intro-mobile.svg') no-repeat -350px -180px, linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed)); */
+
+    background: url('./images/bg-pattern-circles.svg') no-repeat center center, linear-gradient(var(--veryDarkGrayBlue), var(--veryDarkDesatBlue));
+    height: 90vh;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
 @media only screen and (min-width: 992px) {
 
     .mainHeading {
