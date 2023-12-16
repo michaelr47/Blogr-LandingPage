@@ -165,8 +165,9 @@ ul {
 .darkBG {
     /* background: url('./images/bg-pattern-intro-mobile.svg') no-repeat -350px -180px, linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed)); */
 
-    background: url('./images/bg-pattern-circles.svg') no-repeat center center, linear-gradient(var(--veryDarkGrayBlue), var(--veryDarkDesatBlue));
-    height: 90vh;
+    background: url('./images/bg-pattern-circles.svg') no-repeat -105px -250px, linear-gradient(var(--veryDarkGrayBlue), var(--veryDarkDesatBlue));
+    background-size: cover;
+    height: 600px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
 }
