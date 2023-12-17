@@ -158,13 +158,11 @@ ul {
     color: var(--veryDarkGrayishBG);
 }
 
-/* #secondSection {
-    
+.secondSection {
+    margin: 8rem 0px;
+}
 
-} */
 .darkBG {
-    /* background: url('./images/bg-pattern-intro-mobile.svg') no-repeat -350px -180px, linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed)); */
-
     background: url('./images/bg-pattern-circles.svg') no-repeat -105px -250px, linear-gradient(var(--veryDarkGrayBlue), var(--veryDarkDesatBlue));
     background-size: cover;
     height: 600px;
