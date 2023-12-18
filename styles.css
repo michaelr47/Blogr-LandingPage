@@ -215,4 +215,8 @@ ul {
         width: 900px;
     }
 
+    .darkBG {
+        height: 400px;
+        margin: 17rem 0px 0px;
+    }
 }
