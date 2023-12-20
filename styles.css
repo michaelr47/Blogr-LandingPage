@@ -188,9 +188,14 @@ ul {
     top: -175px;
 }
 #sectionHeading {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 300; 
-    margin: 2rem 0px;
+    margin: 5rem 0px 2rem;
+}
+.secondSection-details {
+    padding: 0rem 2rem;
+    line-height: 1.7rem;
+    color: var(--grayishFooterText);
 }
 
 @media only screen and (min-width: 992px) {
