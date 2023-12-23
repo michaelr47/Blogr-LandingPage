@@ -207,6 +207,9 @@ footer {
     flex-direction: column;
     background-color: var(--darkBlackFooter);
     color: var(--grayishFooterText);
+    border-top-right-radius: 100px;
+    padding: 2rem;
+    text-align: center;
 }
 .nav-items-footer {
     color:var(--whiteText);
