@@ -211,7 +211,7 @@ footer {
     border-top-right-radius: 100px;
     padding: 2rem;
     text-align: center;
-    height: 110vh;
+    height: 90%;
 }
 .nav-items-footer {
     color:var(--whiteText);
@@ -228,8 +228,8 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
 }
-a:link {
-    color: red;
+a {
+    color: var(--grayishFooterText);
     text-decoration: none;
 }
   
