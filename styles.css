@@ -222,6 +222,17 @@ footer {
     flex-direction: column;
     justify-content: space-around;
 }
+.footer-links {
+    height: 250px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+a:link {
+    color: red;
+    text-decoration: none;
+}
+  
 
 
 
