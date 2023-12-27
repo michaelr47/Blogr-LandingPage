@@ -162,6 +162,7 @@ ul {
 .feature-details {
     line-height: 25px;
     color: var(--veryDarkGrayishBG);
+    margin-bottom: 2.5rem;
 }
 
 .secondSection {
@@ -217,14 +218,15 @@ footer {
     color:var(--whiteText);
 }
 
-.footer-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 .footer-categories {
     height: 150px;
     display: flex;  
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-items {
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -236,6 +238,9 @@ a {
 
 @media only screen and (min-width: 768px)
  {
+    .thirdSection {
+        display: flex;
+    }
     /* Blogr image */
     footer div:nth-child(1)  {
         align-self: flex-start;
