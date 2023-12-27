@@ -240,6 +240,7 @@ a {
  {
     .thirdSection {
         display: flex;
+        justify-content: center;
     }
     /* Blogr image */
     footer div:nth-child(1)  {
