@@ -200,7 +200,9 @@ ul {
 }
 
 .thirdSection {
+    min-height: 100vh;
     text-align: center;
+    position: relative;
 }
 
 footer {
@@ -234,14 +236,10 @@ a {
     color: var(--grayishFooterText);
     text-decoration: none;
 }
-  
 
 @media only screen and (min-width: 768px)
  {
-    .thirdSection {
-        display: flex;
-        justify-content: center;
-    }
+    
     /* Blogr image */
     footer div:nth-child(1)  {
         align-self: flex-start;
@@ -260,6 +258,7 @@ a {
         height: 70%;
     }
 
+  
     
  }
 @media only screen and (min-width: 992px) {
@@ -299,5 +298,26 @@ a {
     .darkBG {
         height: 400px;
         margin: 17rem 0px 0px;
+    }
+    .thirdSection {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+     
+    .thirdLaptop {
+        width: 875px;
+        position: absolute;
+        top: -15%;
+        left: -25%;
+        margin: 5rem 0px;
+    }
+
+}
+
+@media only screen and (min-width: 1275px) {
+    .thirdSection {
+        justify-content: space-around;
     }
 }
