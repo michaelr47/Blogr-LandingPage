@@ -191,7 +191,7 @@ ul {
 #sectionHeading {
     font-size: 36px;
     font-weight: 300; 
-    margin: 5rem 0px 2rem;
+    margin: 7rem 0px 2rem;
 }
 .secondSection-details {
     padding: 0rem 2rem;
@@ -237,9 +237,16 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 768px)
- {
-    
+@media only screen and (min-width: 768px) {
+    #heading-title {
+        font-size: 4rem;
+        font-weight: 300;
+    }
+    .headingDiv { top: 10%; }
+    .headingBR { display: none; }
+    .headingDiv p { font-size: 1.2rem; }
+    .buttonsDiv {justify-content: center; gap: 1rem;}
+    .startForFreeBtn, .learnMoreBtn {font-size: 1rem; padding: 10px;}
     /* Blogr image */
     footer div:nth-child(1)  {
         align-self: flex-start;
