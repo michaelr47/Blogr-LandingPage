@@ -248,6 +248,10 @@ a {
     .headingDiv p { font-size: 1.2rem; }
     .buttonsDiv {justify-content: center; gap: 1rem;}
     .startForFreeBtn, .learnMoreBtn {font-size: 1rem; padding: 10px;}
+    .darkBG { 
+        background: url('./images/bg-pattern-circles.svg') no-repeat -205px -550px, linear-gradient(var(--veryDarkGrayBlue), var(--veryDarkDesatBlue));
+        
+    }
     /* Blogr image */
     footer div:nth-child(1)  {
         align-self: flex-start;
