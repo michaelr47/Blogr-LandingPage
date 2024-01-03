@@ -102,6 +102,13 @@ ul {
 
 }
 
+.nav-item {
+    display: inline;
+    color: var(--whiteText);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    
+}
 .headingDiv {
     position: absolute;
     top: 15%;
