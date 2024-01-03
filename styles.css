@@ -101,6 +101,9 @@ ul {
     width: 50%;
 
 }
+li:not(:first-child) {
+    display: none;
+}
 
 .nav-item {
     display: inline;
