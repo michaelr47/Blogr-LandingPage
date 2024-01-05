@@ -186,8 +186,9 @@ li:not(:first-child) {
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: center; */
+    align-items: center;
     color: var(--whiteText);
     text-align: center;
     position: relative;
@@ -330,14 +331,32 @@ a {
     .darkBG {
         height: 400px;
         margin: 17rem 0px 0px;
-    }
-    .thirdSection {
-        display: flex;
         justify-content: flex-end;
         align-items: center;
     }
+    #sectionHeading { margin: 1rem 0px 1rem; }
+    .secondSection-details {
+        padding-left: 0px; 
+        line-height: 30px;
+    }
+    .darkBG-details {
+        text-align: left;
+        width: 45%;
+        padding: 0px;
+    }
 
-     
+    .phoneImage {
+        width: 600px;
+        position: absolute;
+        left: 10%;
+        top: -20%;
+    }
+
+    .thirdSection {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .thirdLaptop {
         width: 875px;
         position: absolute;
@@ -349,7 +368,5 @@ a {
 }
 
 @media only screen and (min-width: 1275px) {
-    .thirdSection {
-        justify-content: space-around;
-    }
+    .thirdSection { justify-content: space-around; }
 }
