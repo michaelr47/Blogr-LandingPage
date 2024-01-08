@@ -305,10 +305,13 @@ a {
     .features-content {
         display: flex;
         margin-top: 10rem;
-        margin-left: 6rem; 
+        margin-left: 2rem; 
         position: relative;
 
     }
+    #editorMobileImg  { 
+        width: 800px;
+     }
     .features {
         display: flex;
         flex-direction: column;
@@ -341,14 +344,14 @@ a {
     }
     .darkBG-details {
         text-align: left;
-        width: 45%;
+        width: 40%;
         padding: 0px;
     }
 
     .phoneImage {
         width: 600px;
         position: absolute;
-        left: 10%;
+        left: 0%;
         top: -20%;
     }
 
@@ -369,4 +372,14 @@ a {
 
 @media only screen and (min-width: 1275px) {
     .thirdSection { justify-content: space-around; }
+
+    .phoneImage {
+    
+     
+        left: 10%;
+        
+    }
+    .darkBG-details {
+        width: 45%;
+    }
 }
