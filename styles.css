@@ -262,6 +262,11 @@ a {
         
     }
 
+    .phoneImage { 
+        left: 25%; 
+        top: -15%;
+    } 
+
     /* Blogr image */
     footer div:nth-child(1)  {
         align-self: flex-start;
