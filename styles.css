@@ -186,8 +186,6 @@ li:not(:first-child) {
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     display: flex;
-    /* flex-direction: column;
-    justify-content: center; */
     align-items: center;
     color: var(--whiteText);
     text-align: center;
@@ -263,6 +261,7 @@ a {
         background: url('./images/bg-pattern-circles.svg') no-repeat -205px -550px, linear-gradient(var(--veryDarkGrayBlue), var(--veryDarkDesatBlue));
         
     }
+
     /* Blogr image */
     footer div:nth-child(1)  {
         align-self: flex-start;
@@ -326,14 +325,12 @@ a {
         position: absolute;
         right: -255px;
         top: -170px;
-    }
-    #editorMobileImg {
-        width: 900px;
+    
     }
 
     .darkBG {
         height: 400px;
-        margin: 17rem 0px 0px;
+        margin: 10rem 0px 0px;
         justify-content: flex-end;
         align-items: center;
     }
@@ -352,7 +349,7 @@ a {
         width: 600px;
         position: absolute;
         left: 0%;
-        top: -20%;
+        top: -25%;
     }
 
     .thirdSection {
@@ -361,25 +358,28 @@ a {
     }
 
     .thirdLaptop {
-        width: 875px;
         position: absolute;
+        width: 875px;
         top: -15%;
-        left: -25%;
+        left: -24.5%;
         margin: 5rem 0px;
     }
 
+    .thirdSection .features {
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        margin: 8rem 0px 0px;
+    }
 }
 
 @media only screen and (min-width: 1275px) {
-    .thirdSection { justify-content: space-around; }
-
-    .phoneImage {
-    
-     
-        left: 10%;
-        
-    }
-    .darkBG-details {
-        width: 45%;
+    .thirdSection { margin-right: 2rem; }
+    .phoneImage { left: 10%; }
+    .darkBG-details { width: 45%; }
+    .thirdLaptop {
+        width: 900px;
+        left: -20%;
     }
 }
