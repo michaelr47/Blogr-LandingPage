@@ -246,6 +246,7 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 560px) { .phoneImage { left: 15%; } }
 @media only screen and (min-width: 768px) {
     header { background: url('./images/bg-pattern-intro-mobile.svg') no-repeat -300px -250px, linear-gradient( to right, var(--gradientOrangeRed), var(--gradientLightRed)); }
     #heading-title {
