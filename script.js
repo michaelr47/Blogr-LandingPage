@@ -9,7 +9,7 @@ const windowScreen = () => {
     loginLink.classList.add('hidden');
     signUpBtn.classList.add('hidden');
     
-    if (width > 992) {
+    if (width >= 992) {
       hamburgerIcon.style.display = 'none';
       loginLink.classList.remove('hidden');
       signUpBtn.classList.remove('hidden');
