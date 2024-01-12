@@ -112,6 +112,7 @@ li:not(:first-child) {
     font-weight: 500;
     
 }
+
 .headingDiv {
     position: absolute;
     top: 15%;
@@ -134,7 +135,7 @@ li:not(:first-child) {
     align-items: center;
 }
 
-.startForFreeBtn, .learnMoreBtn {
+.startForFreeBtn, .learnMoreBtn, .signUpButton {
     width: 125px;
     height: 45px;
     border-radius: 25px;
@@ -245,7 +246,11 @@ a {
     color: var(--grayishFooterText);
     text-decoration: none;
 }
-
+.loginLink {
+    color: var(--whiteText);
+    font-weight: 700;
+    margin: 0px 1rem;
+ }
 @media only screen and (min-width: 560px) { .phoneImage { left: 15%; } }
 @media only screen and (min-width: 768px) {
     header { background: url('./images/bg-pattern-intro-mobile.svg') no-repeat -300px -250px, linear-gradient( to right, var(--gradientOrangeRed), var(--gradientLightRed)); }
@@ -295,7 +300,7 @@ a {
 
      }
      nav { justify-content: space-around; }
-      ul {
+    ul {
         margin-right: 15rem;
         display: flex;
         justify-content: space-between;
@@ -306,6 +311,11 @@ a {
         margin-top: 2rem;
     
     }
+    /* .loginLink {
+        color: var(--whiteText);
+        font-weight: 700;
+        margin: 0px 1rem;
+     } */
     
     .features-content {
         display: flex;
