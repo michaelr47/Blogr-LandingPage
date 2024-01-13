@@ -113,6 +113,10 @@ li:not(:first-child) {
     
 }
 
+.navPopupMenu {
+    background-color: white;
+    min-height: 70dvh;
+}
 .headingDiv {
     position: absolute;
     top: 15%;
@@ -144,9 +148,6 @@ li:not(:first-child) {
     font-weight: 700;
 }
 
-.startForFreeBtn:hover, .signUpButton:hover {
-    background-color: rgba(red, green, blue, alpha);
-}
 .sub-nav-items {
     display: none;
 }

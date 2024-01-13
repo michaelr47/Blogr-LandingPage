@@ -1,8 +1,9 @@
 const hamburgerIcon = document.querySelector('.hamburgerIcon');
 const loginLink = document.querySelector('.loginLink');
 const signUpBtn  = document.querySelector('.signUpButton');
+// let navList = document.querySelectorAll('li:not(:first-child)');
 
-const windowScreen = () => { 
+const windowWidth = () => { 
     let width = window.innerWidth;
 
     hamburgerIcon.style.display = 'inline';
@@ -14,9 +15,15 @@ const windowScreen = () => {
       loginLink.classList.remove('hidden');
       signUpBtn.classList.remove('hidden');
     }
-
-   
+    
+    
   }
+  
+  hamburgerIcon.addEventListener('click', () => {
+    let navPopupMenu = document.querySelectorAll('.navPopupMenu');
+  })
 
-  window.addEventListener('resize', windowScreen);
-  document.addEventListener('DOMContentLoaded', windowScreen);
+
+  
+  window.addEventListener('resize', windowWidth);
+  document.addEventListener('DOMContentLoaded', windowWidth);
