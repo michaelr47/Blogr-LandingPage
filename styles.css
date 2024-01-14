@@ -55,7 +55,8 @@ font-family: 'Ubuntu', sans-serif; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Overpass', sans-serif;;
+    font-family: 'Overpass', sans-serif;
+    /* outline: 1px solid red; */
 }
 
 :root {
@@ -91,6 +92,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: relative;
 }
 
 ul {
@@ -116,6 +118,10 @@ li:not(:first-child) {
 .navPopupMenu {
     background-color: white;
     min-height: 70dvh;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
 }
 .headingDiv {
     position: absolute;
