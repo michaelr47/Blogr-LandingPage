@@ -79,7 +79,7 @@ font-family: 'Ubuntu', sans-serif; */
     --veryDarkGrayishBG: hsl(207, 13%, 34%);
     --darkBlackFooter: hsl(240, 10%, 16%);
 }
-
+body, html { overflow-x: hidden; }
 header {
     background: url('./images/bg-pattern-intro-mobile.svg') no-repeat -350px -180px, linear-gradient(var(--gradientOrangeRed), var(--gradientLightRed));
     min-height: 80vh;
@@ -342,9 +342,7 @@ a {
         text-align: left;
         width: 45%;
     }
-    body {
-        overflow-x: hidden;
-    }
+    
     .imageContainer {
         order: 1;
         position: absolute;
