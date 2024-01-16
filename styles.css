@@ -118,10 +118,12 @@ li:not(:first-child) {
 .navPopupMenu {
     background-color: white;
     min-height: 70dvh;
-    width: 50%;
+    width: 85vw;
     position: absolute;
-    top: 15%;
-    left: 50%;
+    top: 95%;
+    left: 5%;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .headingDiv {
     position: absolute;
