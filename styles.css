@@ -141,7 +141,9 @@ li:not(:first-child) {
     align-items: center;
     justify-content: space-between;
 }
-
+.gradientSignUpBtn {
+    background-image: linear-gradient(to right, var(--gradientOrangeRed), var(--gradientLightRed));
+}
 .headingDiv {
     position: absolute;
     top: 15%;
