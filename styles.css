@@ -129,21 +129,35 @@ li:not(:first-child) {
     align-items: center;
     justify-content: space-around;
 }
+
 .navPopupMenu ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
-    }
+}
 
 .navPopupMenu li {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    gap: 10px;
 }
-.gradientSignUpBtn {
-    background-image: linear-gradient(to right, var(--gradientOrangeRed), var(--gradientLightRed));
+
+.navPopupItem {
+    color: var(--veryDarkBlue);
+    font-weight: 700;
 }
+
+.navPopup-buttons { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gradientSignUpBtn { background-image: linear-gradient(to right, var(--gradientOrangeRed), var(--gradientLightRed)); }
+
 .headingDiv {
     position: absolute;
     top: 15%;
