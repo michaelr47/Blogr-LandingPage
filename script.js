@@ -19,11 +19,16 @@ const windowWidth = () => {
     
   }
   
-  hamburgerIcon.addEventListener('click', () => {
-    let navPopupMenu = document.querySelectorAll('.navPopupMenu');
+hamburgerIcon.addEventListener('click', () => {
+  let navPopupMenu = document.querySelectorAll('.navPopupMenu');
+});
+
+const mobileNavItems = Array.from(document.querySelectorAll('.navPopupMenu ul li'));
+
+const toggleMobileNavItem = item => {
+  item.addEventListener('click', () => {
+    let itemContents = item.querySelector('sub-nav-items');
   })
-
-
-  
-  window.addEventListener('resize', windowWidth);
-  document.addEventListener('DOMContentLoaded', windowWidth);
+};
+window.addEventListener('resize', windowWidth);
+document.addEventListener('DOMContentLoaded', windowWidth);
