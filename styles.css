@@ -114,7 +114,7 @@ li:not(:first-child) {
     font-weight: 500;
     
 }
-
+.hamburgerIcon { cursor: pointer; }
 .navPopupMenu {
     background-color: white;
     min-height: 70dvh;
@@ -188,6 +188,7 @@ li:not(:first-child) {
     border: none;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .sub-nav-items {

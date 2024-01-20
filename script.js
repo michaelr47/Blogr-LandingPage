@@ -21,6 +21,7 @@ const windowWidth = () => {
   
 hamburgerIcon.addEventListener('click', () => {
   let navPopupMenu = document.querySelectorAll('.navPopupMenu');
+  navPopupMenu.style.display = 'inline';
 });
 
 const mobileNavItems = Array.from(document.querySelectorAll('.navPopupMenu ul li'));
