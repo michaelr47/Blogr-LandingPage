@@ -20,13 +20,13 @@ const windowWidth = () => {
   
 hamburgerIcon.addEventListener('click', () => {
   let navPopupMenu = document.querySelector('.navPopupMenu');
-  navPopupMenu.style.display = (navPopupMenu.style.display === 'none') ? 'block' : 'none';
+  navPopupMenu.style.display = navPopupMenu.style.display === 'flex' ? 'none' : 'flex';
 });
 
 const toggleMobileNavItem = item => {
   item.addEventListener('click', () => {
     let itemContents = item.querySelector('.sub-nav-items');
-    itemContents.style.display = (itemContents.style.display === 'none') ? 'block' : 'none';
+    itemContents.style.display = itemContents.style.display === 'flex' ? 'none' : 'flex';
   });
 };
 

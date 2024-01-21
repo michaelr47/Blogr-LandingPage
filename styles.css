@@ -148,7 +148,11 @@ li:not(:first-child) {
     color: var(--veryDarkBlue);
     font-weight: 700;
 }
-
+.line {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
 .navPopup-buttons { 
     display: flex;
     flex-direction: column;
