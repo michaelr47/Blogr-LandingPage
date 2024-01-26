@@ -261,6 +261,7 @@ li:not(:first-child) {
     width: 365px;
     position: absolute;
     top: -175px;
+    left: 20px;
 }
 #sectionHeading {
     font-size: 36px;
