@@ -1,7 +1,6 @@
 const hamburgerIcon = document.querySelector('.hamburgerIcon');
 const loginLink = document.querySelector('.loginLink');
 const signUpBtn  = document.querySelector('.signUpButton');
-// let navList = document.querySelectorAll('li:not(:first-child)');
 const mobileNavItems = Array.from(document.querySelectorAll('.navPopupMenu ul li'));
 
 const windowWidth = () => { 
