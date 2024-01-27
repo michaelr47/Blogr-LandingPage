@@ -174,7 +174,10 @@ li:not(:first-child) {
 }
 
 .gradientSignUpBtn { background-image: linear-gradient(to right, var(--gradientOrangeRed), var(--gradientLightRed)); }
-
+.rotateArrow {
+    transform: rotate(-180deg);
+    transition: transform .3s ease-out;
+}
 .headingDiv {
     position: absolute;
     top: 15%;

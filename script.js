@@ -29,8 +29,21 @@ const toggleMobileNavItem = item => {
   });
 };
 
+const allLis = document.querySelectorAll('ul li');
+
+const handleArrowRotation = (list) => {
+  let listImg = list.querySelector('img');
+  list.addEventListener('click', () => {
+    listImg.classList.toggle('rotateArrow');
+  });
+}
+
 for (const item of mobileNavItems) {
   toggleMobileNavItem(item);
+}
+
+for (const list of allLis) {
+  handleArrowRotation(list);
 }
 window.addEventListener('resize', windowWidth);
 document.addEventListener('DOMContentLoaded', windowWidth);
