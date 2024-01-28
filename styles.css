@@ -56,7 +56,7 @@ font-family: 'Ubuntu', sans-serif; */
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
-    /* outline: 1px solid red; */
+
 }
 
 :root {
@@ -219,7 +219,7 @@ li:not(:first-child) {
 }
 
 .features-section {
-    padding: 3rem 1rem;
+    padding: 10rem 1rem 1rem;
     text-align: center;
     min-height: 100vh;
 }
@@ -386,8 +386,7 @@ a {
     
     .features-content {
         display: flex;
-        margin-top: 10rem;
-        margin-left: 2rem; 
+        margin-left: 8rem; 
         position: relative;
 
     }
